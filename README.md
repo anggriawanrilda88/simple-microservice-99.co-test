@@ -12,10 +12,18 @@ There are 3 Microservices created on this test:
 # Quick Setup
 To run service user API and service public API follow this step:
 
+**go to following link to see how install golang dependency https://go.dev/doc/install**
+
 **User service:**
 ```bash
 # Run the user service
 cd user_service
+
+# Set service module
+go mod init "user_service"
+
+# gET service library
+go mod tidy
 
 # Set port on main.go file, Database will automatically generate by sql3lite. 
 go run main.go 
@@ -24,6 +32,12 @@ go run main.go
 ```bash
 # Run the public API service
 cd public_api_service
+
+# Set service module
+go mod init "public_api_service"
+
+# gET service library
+go mod tidy
 
 # Set port on main.go file
 go run main.go
