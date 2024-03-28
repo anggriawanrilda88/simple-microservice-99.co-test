@@ -5,8 +5,8 @@ This Microservices use Golang to demonstrate a grasp of the principles of micros
 
 There are 3 Microservices created on this test:
 - **Listing service:** (Default Code As Example To Create Other Microservices, Use Python Programming Language) Stores all the information about properties that are available to rent and buy.
-- **User service:** (Task) Stores information about all the users in the system, See quick setup to know how to run this service.
-- **Public API layer:** (Task) Set of APIs that are exposed to the web/public, See quick setup to know how to run this service.
+- **User service:** (Task, Use Golang Programming Language) Stores information about all the users in the system, See quick setup to know how to run this service.
+- **Public API layer:** (Task, Use Golang Programming Language) Set of APIs that are exposed to the web/public, See quick setup to know how to run this service.
 
 
 # Quick Setup
