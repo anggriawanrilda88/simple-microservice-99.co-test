@@ -15,12 +15,14 @@ To run service user API and service public API follow this step:
 # Run the user service
 cd user_service
 
-go run main.go
+# Set port on main.go file
+go run main.go 
 ```
 
 ```bash
 # Run the public API service
 cd public_api_service
 
+# Set port on main.go file
 go run main.go
 ```
