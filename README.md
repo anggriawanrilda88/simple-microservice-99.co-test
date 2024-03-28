@@ -22,7 +22,7 @@ cd user_service
 # Set service module
 go mod init "user_service"
 
-# gET service library
+# Get service library
 go mod tidy
 
 # Set port on main.go file, Database will automatically generate by sql3lite. 
@@ -37,7 +37,7 @@ cd public_api_service
 # Set service module
 go mod init "public_api_service"
 
-# gET service library
+# Get service library
 go mod tidy
 
 # Set port on main.go file
