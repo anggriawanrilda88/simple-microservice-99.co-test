@@ -14,7 +14,7 @@ To run service user API and service public API follow this step:
 
 **go to following link to see how install golang dependency https://go.dev/doc/install**
 
-**User service:**
+**User Service:**
 ```bash
 # Run the user service
 cd user_service
@@ -29,6 +29,7 @@ go mod tidy
 go run main.go 
 ```
 
+**Public API Service:**
 ```bash
 # Run the public API service
 cd public_api_service
